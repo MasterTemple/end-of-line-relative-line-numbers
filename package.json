@@ -1,0 +1,117 @@
+{
+  "name": "end-of-line-relative-line-numbers",
+  "displayName": "End of Line Relative Line Numbers",
+  "description": "Show Relative Line Numbers at the end of the line",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "configuration": {
+      "title": "End of Line Relative Line Numbers",
+      "properties": {
+        "relative-line-endings": {
+          "properties": {
+            "color": {
+              "type": "string",
+              "default": "#75715E88",
+              "description": "The color of the relative line numbers"
+            },
+            "hide-active-line": {
+              "type": "boolean",
+              "default": false,
+              "description": "Whether or not to hide the line number for the line that the cursor is on"
+            },
+            "hide-empty-lines": {
+              "type": "boolean",
+              "default": true,
+              "description": "Whether or not to hide the line number for empty lines"
+            },
+            "use-absolute-active-line": {
+              "type": "boolean",
+              "default": false,
+              "description": "Whether or not to display the absolute or relative line number for the line that the cursor is on"
+            },
+            "margin": {
+              "type": "string",
+              "default": "0 -1em 0 1em",
+              "description": "Used to specify the margin between the end of the line and the line number (interpreted as CSS margin)"
+            },
+            "use-prefix": {
+              "type": "boolean",
+              "default": false,
+              "description": "Whether or not to add text before the line number (required for all 'prefix-*' settings to be active)"
+            },
+            "prefix-default": {
+              "type": "string",
+              "default": "",
+              "description": "The default text to add before the line number"
+            },
+            "prefix-above": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "default": null,
+              "description": "The text to add before the line number, for lines above the cursor (overrides 'prefix-default')"
+            },
+            "prefix-below": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "default": null,
+              "description": "The text to add before the line number, for lines below the cursor (overrides 'prefix-default')"
+            },
+            "prefix-current": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "default": null,
+              "description": "The text to add before the line number, for the line of the cursor (overrides 'prefix-default')"
+            },
+            "use-suffix": {
+              "type": "boolean",
+              "default": false,
+              "description": "Whether or not to add text after the line number (required for all 'suffix-*' settings to be active)"
+            },
+            "suffix-default": {
+              "type": "string",
+              "default": "",
+              "description": "The default text to add after the line number"
+            },
+            "suffix-above": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "default": null,
+              "description": "The text to add after the line number, for lines above the cursor (overrides 'suffix-default')"
+            },
+            "suffix-below": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "default": null,
+              "description": "The text to add after the line number, for lines below the cursor (overrides 'suffix-default')"
+            },
+            "suffix-current": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "default": null,
+              "description": "The text to add after the line number, for the line of the cursor (overrides 'suffix-default')"
+            }
+          }
+        }
+      }
+    }
+  },
+  "main": "./extension.js"
+}
