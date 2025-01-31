@@ -40,3 +40,18 @@ VSCode Extension: Show Relative Line Numbers at the end of the line
   }
 }
 ```
+
+## Development
+
+Build Dependencies
+
+```sh
+npm install -g @vscode/vsce
+npm install --save-dev @vscode/vsce
+```
+
+Rebuild
+
+```sh
+vsce package
+```

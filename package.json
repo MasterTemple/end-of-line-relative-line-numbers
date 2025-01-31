@@ -3,6 +3,9 @@
   "displayName": "End of Line Relative Line Numbers",
   "description": "Show Relative Line Numbers at the end of the line",
   "version": "0.0.1",
+  "repository": {
+    "url": "https://github.com/MasterTemple/end-of-line-relative-line-numbers"
+  },
   "engines": {
     "vscode": "^1.75.0"
   },
@@ -113,5 +116,8 @@
       }
     }
   },
-  "main": "./extension.js"
+  "main": "./extension.js",
+  "devDependencies": {
+    "@vscode/vsce": "^3.2.2"
+  }
 }
