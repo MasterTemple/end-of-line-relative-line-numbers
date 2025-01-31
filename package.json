@@ -2,7 +2,7 @@
   "name": "end-of-line-relative-line-numbers",
   "displayName": "End of Line Relative Line Numbers",
   "description": "Show Relative Line Numbers at the end of the line",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "icon": "logo.png",
   "publisher": "blake-scampone",
   "repository": {

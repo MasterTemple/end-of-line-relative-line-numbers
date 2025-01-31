@@ -21,7 +21,7 @@ const configDefaults = {
   },
   margin: {
     name: "margin",
-    defaultValue: "0 -1em 0 1em"
+	  defaultValue: "0 0 0 2em"
   },
   usePrefix: {
     name: "use-prefix",
