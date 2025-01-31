@@ -1,5 +1,7 @@
 # End of Line Relative Line Numbers
 
+![](./logo.png)
+
 Show Relative Line Numbers at the end of the line
 
 Install from the [Visual Code Code Marketplace](https://marketplace.visualstudio.com/items?itemName=blake-scampone.end-of-line-relative-line-numbers)
