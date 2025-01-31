@@ -2,7 +2,8 @@
   "name": "end-of-line-relative-line-numbers",
   "displayName": "End of Line Relative Line Numbers",
   "description": "Show Relative Line Numbers at the end of the line",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "icon": "logo.png",
   "repository": {
     "url": "https://github.com/MasterTemple/end-of-line-relative-line-numbers"
   },
