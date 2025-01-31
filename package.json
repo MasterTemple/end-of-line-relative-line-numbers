@@ -4,6 +4,7 @@
   "description": "Show Relative Line Numbers at the end of the line",
   "version": "0.0.2",
   "icon": "logo.png",
+  "publisher": "blake-scampone",
   "repository": {
     "url": "https://github.com/MasterTemple/end-of-line-relative-line-numbers"
   },
